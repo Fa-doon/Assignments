@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login & Registration Form</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <section class="wrapper">
+    <h1>Sign Up</h1>
+    <form action="">
+      <input type="text" placeholder="First Name" />
+      <input type="text" placeholder="Last Name" />
+      <input type="number" placeholder="Phone Number" />
+      <input type="email" placeholder="Email" required />
+      <select name="gender" id="gender">
+        <option value="gender">Gender</option>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <input type="date" placeholder="Date of Birth" />
+        <input type="password" placeholder="Password" required />
+        <input type="password" placeholder="Re-enter Password" required />
+        <label for="">Pick a Colour: </label>
+        <input class="color" type="color" placeholder="Pick a colour" />
+    </form>
+    <div class="terms">
+      <input type="checkbox" id="checkbox" />
+      <label for="checkbox">I agree to these <a href="#">Terms & Conditions</a></label>
+    </div>
+    <form action="">
+      <input type="submit" name="signup" value="Sign Up">
+    </form>
+    <div class="member">
+      Already a member? <a href="login.html">Login here</a>
+    </div>
+  </section>
+</body>
+
+</html>
